@@ -18,7 +18,7 @@ body {
     padding: 20px 10%;
 }
 
-/* Header Navbar */
+/* Header */
 
 .header {
     position: fixed;
@@ -62,12 +62,11 @@ nav a.active {
 }
 
 
-/* end Header Navbar*/
+/* end Header*/
 
 /* Main */
 
 /* Hero Section */
-
 .hero_section {
     display: flex;
     align-items: center;
@@ -116,9 +115,9 @@ nav a.active {
     width: 20rem;
 }
 
+/* end Hero Section */
+
 /* About Section */
-
-
 #about h1,
 .portfolio h1,
 .experiences h1,
@@ -159,6 +158,8 @@ nav a.active {
 .description img {
     width: 30rem;
 }
+
+/* end About Section */
 
 /* Portfolio section */
 .card-container {
@@ -205,8 +206,9 @@ nav a.active {
     padding-top: 5rem;
 }
 
-/* Experiences */
+/* end Portfolio section */
 
+/* Experiences */
 .experiences article {
     display: flex;
     justify-content: space-between;
@@ -230,8 +232,9 @@ nav a.active {
     color: #ededed;
 }
 
-/* Services */
+/* end Experiences */
 
+/* Services */
 .services,
 .contact {
     width: 100%;
@@ -261,8 +264,9 @@ nav a.active {
     margin: 1rem 0;
 }
 
-/* Contact */
+/* end Services */
 
+/* Contact */
 .contact {
     margin-top: 5rem;
 }
@@ -304,4 +308,6 @@ nav a.active {
     border-radius: 10px;
 }
 
-/* Footer */
+/* end Contact */
+
+/* end Main */
