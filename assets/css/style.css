@@ -20,6 +20,14 @@ body {
 
 /* Header */
 
+.navBar ul {
+    display: flex;
+}
+
+.navBar li {
+    list-style-type: none;
+}
+
 .header {
     position: fixed;
     top: 0;
