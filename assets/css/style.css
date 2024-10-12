@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #081b29;
+    color: #adadad;
+}
+
+.container {
+    padding: 20px 10%;
+}
+
+/* Header Navbar */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.header.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ededed;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 2rem;
+    color: #ededed;
+}
+
+nav a:hover,
+nav a.active {
+    color: #00abf0;
+
+}
+
+
+/* end Header Navbar*/
+
+/* Main */
+
+/* Hero Section */
+
+.hero_section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.tagline_hero p {
+    width: 70%;
+    margin: 2rem 0;
+}
+
+.tagline_hero h1 {
+    font-size: 64px;
+    color: #ededed;
+    margin: 0;
+}
+
+.tagline_hero h3 {
+    font-size: 26px;
+    color: #ededed;
+}
+
+.hero_section figure img {
+    width: 20rem;
+}
+
+.cta {
+    color: #ededed;
+    border: 1px solid;
+    padding: 5px 1em;
+    border-radius: 10px;
+}
+
+.cta:hover {
+    background: #00abf0;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.contact-hero {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* justify-content: space-between; */
+    width: 20rem;
+}
+
+/* About Section */
+
+
+#about h1,
+.portfolio h1,
+.experiences h1,
+.services h1,
+.contact h1 {
+    /* position: relative; */
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #ededed;
+    margin-bottom: 3rem;
+}
+
+#about,
+#portfolio,
+#experiences,
+#services,
+#contact {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+#about p {
+    letter-spacing: 1px;
+
+}
+
+.description {
+    display: flex;
+    gap: 3rem;
+    color: #ededed;
+
+}
+
+.description img {
+    width: 30rem;
+}
+
+/* Portfolio section */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card img {
+    width: 16rem;
+}
+
+.card {
+    text-align: center;
+    width: 20rem;
+    height: 25rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 1rem 0 rgba(60, 51, 177, 0.3);
+}
+
+.card a {
+    color: #ededed;
+}
+
+.card a:hover {
+    color: #00abf0;
+}
+
+.card p {
+    text-align: start;
+    font-size: 1rem;
+}
+
+.card h3 {
+    margin: 1rem 0;
+}
+
+.portfolio {
+    width: 100%;
+    padding-top: 5rem;
+}
+
+/* Experiences */
+
+.experiences article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.experiences article img {
+    width: 25rem;
+}
+
+.experiences h1 {
+    margin-top: 3rem;
+}
+
+.experiences {
+    padding: 0 10%;
+}
+
+.experiences p {
+    color: #ededed;
+}
+
+/* Services */
+
+.services,
+.contact {
+    width: 100%;
+    padding: 0 10%;
+
+}
+
+.card-service {
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 1rem 0 rgba(60, 51, 177, 0.3);
+    overflow: hidden;
+}
+
+.card-service img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.card-service h3 {
+    margin: 1rem 0;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 5rem;
+}
+
+.card-contact input {
+    background: transparent;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #ededed;
+}
+
+.card-contact {
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-info textarea {
+    background: transparent;
+    color: #ededed;
+    border-radius: 10px;
+    padding: 1rem;
+    resize: none;
+    width: 100%;
+}
+
+
+.detail-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-contact button {
+    padding: 10px;
+    width: 100%;
+    background: #00abf0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Footer */
